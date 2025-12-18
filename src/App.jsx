@@ -8,14 +8,31 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-      <Navbar />
+  <Navbar />
 
-      <section id="home" className="scroll-mt-24"><Home /></section>
-      <section id="about" className="scroll-mt-24"><About /></section>
-      <section id="skills" className="scroll-mt-24"><Skill /></section>
-      <section id="projects" className="scroll-mt-24"><Projects /></section>
-      <section id="contact" className="scroll-mt-24"><Contact /></section>
-    </>
+  <main className="pt-[72px]">
+    <section id="home" className="scroll-mt-[72px]">
+      <Home />
+    </section>
+
+    <section id="about" className="scroll-mt-[72px]">
+      <About />
+    </section>
+
+    <section id="skills" className="scroll-mt-[72px]">
+      <Skill />
+    </section>
+
+    <section id="projects" className="scroll-mt-[72px]">
+      <Projects />
+    </section>
+
+    <section id="contact" className="scroll-mt-[72px]">
+      <Contact />
+    </section>
+  </main>
+</>
+
   );
 }
 
